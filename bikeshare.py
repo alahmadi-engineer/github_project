@@ -104,7 +104,7 @@ def calculations(filtered_data,filter_choice,state_choice):
     doing all necessary calculations
     """
     state_filtered = filtered_data
-    #1. popular times of travel
+    #1. popular times of travel calculation
     #---------------------------------------------------------
     #most common month if month is not chosen
     if filter_choice not in ['month','both']:
@@ -237,7 +237,7 @@ def main():
     n = 0
     while True:
         if n==0:
-            #calling for state name
+            #calling for state name from user
             state_data, state_choice = state()
             #data cleaning
             state_data = state_data.rename(columns = {'Unnamed: 0':'ID'})
