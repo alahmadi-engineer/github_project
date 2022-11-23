@@ -237,7 +237,7 @@ def main():
     n = 0
     while True:
         if n==0:
-            #calling for state name
+            #calling for state name from user
             state_data, state_choice = state()
             #data cleaning
             state_data = state_data.rename(columns = {'Unnamed: 0':'ID'})
