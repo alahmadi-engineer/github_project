@@ -25,7 +25,7 @@ def state():
 
 def time_filter():
     """
-    used for chosing the choice of filter
+    used for chosing the choice of filter which are for month and day
     """
     n = 0
     while True:
