@@ -5,7 +5,7 @@ pd.set_option('mode.chained_assignment',None)
 
 def state():
     """
-    chosing the state name
+    chosing the state name of three washington, newyork and new york city
     """
     n = 0
     while True:
