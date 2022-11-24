@@ -104,7 +104,7 @@ def calculations(filtered_data,filter_choice,state_choice):
     doing all necessary calculations
     """
     state_filtered = filtered_data
-    #1. popular times of travel calculation
+    #1. popular times of travel calculation and it
     #---------------------------------------------------------
     #most common month if month is not chosen
     if filter_choice not in ['month','both']:
