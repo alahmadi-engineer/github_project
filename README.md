@@ -9,3 +9,5 @@ bikeshare.py is the main file used
 ### Credits
 Udacity project
 
+### more details
+
